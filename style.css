@@ -12,6 +12,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  font-family: 'Manrope', sans-serif;
   font-size: 13px;
   align-items: center;
   justify-content: center;
@@ -58,20 +59,65 @@ footer {
 }
 
 .hero__title {
-  padding: 30px 30px;
+  padding: 30px 30px 0 30px;
   margin: 0;
+  color: var(--very-dark-gray-blue);
+}
+
+.hero__text {
+  color: var(--des-dark-blue);
+  padding: 0 30px;
 }
 
 .author__share__container {
   display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0 30px;
+}
+
+.author__image {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.author__name,
+.author__date {
+  margin: 0;
+}
+
+.author__name {
+  color: var(--very-dark-gray-blue);
+  font-weight: 700;
+  margin-right: 165px;
+}
+
+.author__date {
+  color: var(--gray-blue);
+}
+
+.share {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--light-gray-blue);
+}
+
+.share img {
+  height: 40%;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--des-dark-blue);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--very-dark-gray-blue);
+  text-decoration: none;
+  font-weight: 700;
 }
 
 :root {
