@@ -1,0 +1,82 @@
+/* * {
+  border: 1px solid red;
+} */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+  background: var(--light-gray-blue);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10px;
+}
+
+.hero__container {
+  display: flex;
+  height: 264px;
+}
+
+.hero__image__container {
+  background-image: url(./images/drawers.jpg);
+  background-size: 126%;
+  width: 264px;
+  border: none;
+}
+
+.hero__text__container {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.hero__title {
+  padding: 30px 30px;
+  margin: 0;
+}
+
+.author__share__container {
+  display: flex;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+:root {
+  --very-dark-gray-blue: hsl(217, 19%, 35%);
+  --des-dark-blue: hsl(214, 17%, 51%);
+  --gray-blue: hsl(212, 23%, 69%);
+  --light-gray-blue: hsl(210, 46%, 95%);
+}
