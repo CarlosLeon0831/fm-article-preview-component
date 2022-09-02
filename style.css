@@ -36,7 +36,7 @@ h1 {
 footer {
   position: absolute;
   bottom: 0;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .hero__container {
