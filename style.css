@@ -78,7 +78,7 @@ footer {
   padding: 0 30px;
 }
 
-.author__share__container #buttonClose {
+.idleBtn {
   background-color: var(--light-gray-blue);
   border-radius: 50px;
   padding: 8px;
@@ -105,7 +105,7 @@ footer {
 .author__name {
   color: var(--very-dark-gray-blue);
   font-weight: 700;
-  margin-right: 165px;
+  margin-right: 155px;
 }
 
 .author__date {
@@ -124,7 +124,7 @@ footer {
   justify-content: space-around;
   position: absolute;
   top: 50%;
-  left: 60%;
+  left: 62%;
 }
 
 .share .shareSvg {
@@ -140,8 +140,25 @@ footer {
   background-color: var(--very-dark-gray-blue);
   position: absolute;
   top: 75%;
-  left: 35%;
+  left: 45%;
   transform: rotateY(0deg) rotate(45deg);
+}
+
+.activeBtn {
+  background-color: var(--des-dark-blue);
+  border-radius: 50px;
+  padding: 8px;
+  margin-right: 4%;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+}
+
+.activeBtn img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(11deg) brightness(111%) contrast(6000%);
 }
 
 .attribution {
