@@ -78,6 +78,19 @@ footer {
   padding: 0 30px;
 }
 
+.author__share__container #buttonClose {
+  background-color: var(--light-gray-blue);
+  border-radius: 50px;
+  padding: 8px;
+  margin-right: 4%;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+}
+
 .author__image {
   height: 40px;
   border-radius: 50%;
@@ -100,15 +113,35 @@ footer {
 }
 
 .share {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  border: none;
-  background-color: var(--light-gray-blue);
+  padding: 1.5%;
+  background-color: var(--very-dark-gray-blue);
+  color: var(--gray-blue);
+  display: flex;
+  width: 13%;
+  height: 10px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-around;
+  position: absolute;
+  top: 50%;
+  left: 60%;
 }
 
-.share img {
-  height: 40%;
+.share .shareSvg {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.share .triangle {
+  width: 20px;
+  height: 20px;
+  background-color: var(--very-dark-gray-blue);
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  transform: rotateY(0deg) rotate(45deg);
 }
 
 .attribution {
