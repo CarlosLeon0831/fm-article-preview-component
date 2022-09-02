@@ -118,13 +118,14 @@ footer {
   color: var(--gray-blue);
   display: flex;
   width: 13%;
-  height: 10px;
+  height: 5px;
   align-items: center;
   border-radius: 10px;
   justify-content: space-around;
   position: absolute;
   top: 50%;
   left: 62%;
+  letter-spacing: 3px;
 }
 
 .share .shareSvg {
@@ -132,6 +133,7 @@ footer {
   align-items: center;
   width: 50%;
   justify-content: space-evenly;
+  margin-left: 15px;
 }
 
 .share .triangle {
