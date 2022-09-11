@@ -213,6 +213,18 @@ footer {
   .idleBtn {
     margin-right: 0;
   }
+
+  .share {
+    position: absolute;
+    top: 624px;
+    left: 13px;
+    width: 350px;
+    height: 50px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
 }
 
 :root {
